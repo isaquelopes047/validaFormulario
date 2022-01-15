@@ -1,0 +1,23 @@
+- A validação mais simples diretamente pelo HTML é usar o atributo required nos inputs
+e nos campos de email trocar o type text para type="email". Nos campos de senha podemos
+colocar o type="password".
+
+- O atributo minlength="" define uma quantidade minima de atributo que o input deve receber
+antes de enviar o form.
+
+- Podemos usar RegEx diretamente no HTML usando o atributo pattern="" e colocando dentro
+dele a expressão regular, para personalizar a mensagem de alerta natural do required com uma 
+mensagem mais expressiva usamos o atributo title="mensagem que vai apresentar"
+
+- Para colocarmos datas nos input podmeos usar o atributo type="date" assim colocando 
+
+
+Vocaculario:
+
+- required
+- type email
+- type password
+- type date
+- minlength=""
+- pattern="(?!^[0-9]*$)(?!^[a-zA-Z]*$)^([a-zA-Z0-9]{6,15})$"
+- title="mensagem que vai apresentar"
